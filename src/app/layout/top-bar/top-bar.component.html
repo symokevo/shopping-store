@@ -1,19 +1,19 @@
 <div class="wrapper">
   <div class="brand-group" routerLink="/">
-    <img src="assets/icons/menu.png" alt="" class="menu link">
+    <i class="bi bi-list menu link"></i>
     <img src="assets/images/2.svg" alt="" class="logo link">
     <div class="brand-name link">Shopping Store</div>
   </div>
-  <div class="search-grop">
+  <div class="search-group">
     <input type="search" class="search-input" placeholder="Search" />
     <div class="search-icon-wrapper link">
-      <img src="assets/icons/search" alt="" class="search-icon">
+      <i class="bi bi-search search-icon"></i>
     </div>
   </div>
   <div class="user-group">
-    <img src="assets/icons/user.png" alt="" class="user-icon link">
+    <i class="bi bi-person user-icon link"></i>
     <div class="cart" routerLink="/cart">
-      <img src="assets/icons/cart.png" alt="" class="cart-icon link">
+      <i class="bi bi-cart cart-icon link"></i>
       <span class="cart-count">{{ 0 }}</span>
       <span class="cart-total">${{ 0 | number : "1.2-2" }}</span>
     </div>
@@ -24,7 +24,7 @@
   <div class="search-group mobile">
     <input type="search" class="search-input" placeholder="Search">
     <div class="search-icon-wrapper link">
-      <img src="assets/icons/search.png" alt="" class="search-icon">
+      <i class="bi bi-search search-icon"></i>
     </div>
   </div>
 </div>

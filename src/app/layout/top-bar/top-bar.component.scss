@@ -7,8 +7,8 @@
   width: 100%;
   height: 80px;
   padding: 10px 20px;
-  background-color: var(—main-color);
-  color: var(—text-color);
+  background-color: var(--main-color);
+  color: var(--text-color);
   position: fixed;
   z-index: 100;
   top: 0px;
@@ -37,9 +37,7 @@
 }
 
 .menu {
-  width: 20px;
-  height: 100%;
-  object-fit: contain;
+  font-size: 1.5rem;
   cursor: pointer;
   margin-right: 10px;
   @media (min-width: 760px) {
@@ -75,9 +73,7 @@
 
 .user-icon,
 .cart-icon {
-  width: 24px;
-  height: 100%;
-  object-fit: contain;
+  font-size: 1.5rem;
   cursor: pointer;
 }
 
@@ -87,7 +83,7 @@
 }
 
 .cart-count {
-  background-color: var(—accent-color);
+  background-color: var(--accent-color);
   font-size: 0.9em;
   width: 20px;
   height: 20px;
@@ -120,7 +116,7 @@
 
 .search-input {
   width: 100%;
-  height: var(—search-input-height);
+  height: var(--search-input-height);
   border-radius: 30px;
   outline: none;
   border: none;
@@ -132,19 +128,19 @@
 }
 
 .search-icon-wrapper {
-  background-color: var(—accent-color);
+  background-color: var(--accent-color);
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
-  height: var(—search-input-height);
-  width: calc(var(—search-input-height) + 10px);
-  margin-left: calc(-1 * var(—search-input-height) + 10px);
+  height: var(--search-input-height);
+  width: calc(var(--search-input-height) + 10px);
+  margin-left: calc(-1 * var(--search-input-height) + 10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .search-icon {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  padding: 11px;
+  font-size: 1.5rem;
   cursor: pointer;
 }
 
@@ -153,6 +149,6 @@
   width: 100%;
   padding-top: 2px;
   @media (min-width: 760px) {
-  display: none;
+    display: none;
   }
 }

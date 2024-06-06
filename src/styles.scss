@@ -1,3 +1,6 @@
+@import "bootstrap/dist/css/bootstrap.css";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
 * {
   margin: 0px;
   padding: 0px;
@@ -34,4 +37,22 @@ body {
 
 .shadow {
   box-shadow: 0 0.0625rem 0.125rem 0.0625rem #00000026;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--footer-color);
+  color: var(--text-color);
+  padding: 50px 10px;
+  gap: 20px;
+  font-size: 0.9em;
+  cursor: default;
+}
+
+.copyright {
+  background-color: var(--main-color);
 }
