@@ -14,8 +14,8 @@
     <i class="bi bi-person user-icon link"></i>
     <div class="cart" routerLink="/cart">
       <i class="bi bi-cart cart-icon link"></i>
-      <span class="cart-count">{{ 0 }}</span>
-      <span class="cart-total">${{ 0 | number : "1.2-2" }}</span>
+      <span class="cart-count">{{ count() }}</span>
+      <span class="cart-total">${{ total() | number : "1.2-2" }}</span>
     </div>
   </div>
 </div>
